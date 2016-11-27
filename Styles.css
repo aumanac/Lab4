@@ -1,0 +1,32 @@
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+.Header {
+    background-image: url("https://c2.staticflickr.com/6/5737/22530693489_55d43126d1_h.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 233px;
+    height: 210px;
+    position:relative;
+    bottom: -5px;
+
+}
+.nav1{
+    text-align: center;
+    position:relative;
+    bottom: -110px;
+}
+button {
+    background-color: forestgreen;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 2px 2px;
+    padding: 5px 15px;
+    text-align: center;
+}
