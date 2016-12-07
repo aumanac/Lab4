@@ -11,14 +11,14 @@ body{
     background-position: center;
     background-size: 1024px 233px;
     height: 210px;
-    position:relative;
+    position: relative;
     bottom: -5px;
 
 }
 .nav1{
-    text-align: center;
     position:relative;
     bottom: -110px;
+    text-align: center;
 }
 button {
     background-color: forestgreen;
@@ -29,4 +29,29 @@ button {
     margin: 2px 2px;
     padding: 5px 15px;
     text-align: center;
+}
+.descrip{
+    bottom: -130px;
+    position: relative;
+    text-align: center;
+}
+.activ img{
+    bottom: -100px;
+    position: relative;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+    height: 200px;
+}
+.activ p{
+    bottom: -360px;
+    position: relative;
+    text-align: center;
+}
+.video {
+    bottom: -170px;
+    position: relative;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
 }
