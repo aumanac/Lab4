@@ -22,6 +22,7 @@ body{
 }
 button {
     background-color: forestgreen;
+    border-color: white;
     border-radius: 5px;
     color: white;
     cursor: pointer;
@@ -29,6 +30,14 @@ button {
     margin: 2px 2px;
     padding: 5px 15px;
     text-align: center;
+}
+button:hover {
+    color: forestgreen;
+    border-color: forestgreen;
+    background-color: white
+}
+button:focus {
+    outline:0;
 }
 .descrip{
     bottom: -130px;
