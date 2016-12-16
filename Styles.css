@@ -64,3 +64,29 @@ button:focus {
     display:block;
     margin: 0 auto;
 }
+div.gal {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    height: 200px;
+    bottom: -200px;
+    position: relative;
+    text-align: center;
+}
+
+div.gal:hover {
+    border: 1px solid #777;
+}
+
+div.gal img {
+    width: 100%;
+    height: auto;
+}
+p.con {
+    position: relative;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+    height: 200px;
+    bottom: -200px;
+}
